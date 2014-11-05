@@ -1,5 +1,5 @@
 /*
- * Copyright 2013-2014 J7 Soluções Inteligentes.
+ * Copyright 2013-2014 J7 Soluï¿½ï¿½es Inteligentes.
  *
  * by Edivando Alves 
  * Contact: edivando@j7.eti.br

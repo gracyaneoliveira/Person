@@ -13,9 +13,9 @@ import javax.persistence.Table;
 @Entity
 @Table(name="me_usuario")
 @NamedQueries( {
-@NamedQuery(name="Usuario", query="from Usuario u"),
-@NamedQuery(name="usuarioByCdEmail", query="From Usuario u Where u.cdEmail = ?1"),
-@NamedQuery(name="usuarioByCdUsuario", query="From Usuario u Where u.cdUsuario = ?1")})
+@NamedQuery(name="Usuario", query="select u from Usuario u"),
+@NamedQuery(name="usuarioByCdEmail", query="select u From Usuario u Where u.cdEmail = ?1"),
+@NamedQuery(name="usuarioByCdUsuario", query="select u From Usuario u Where u.cdUsuario = ?1")})
 public class Usuario implements IGenericEntity<Usuario> {
 	
 	private static final long serialVersionUID = 1L;
